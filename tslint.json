@@ -40,7 +40,7 @@
         }],
         "no-angle-bracket-type-assertion": false,
         "no-arg": true,
-        "no-bitwise": true,
+        "no-bitwise": false,
         "no-console": [
             true,
             "debug",
@@ -70,7 +70,7 @@
         "object-literal-sort-keys": false,
         "one-line": false,
         "ordered-imports": false,
-        "prefer-const": true,
+        "prefer-const": false,
         "quotemark": false,
         "radix": true,
         "semicolon": [

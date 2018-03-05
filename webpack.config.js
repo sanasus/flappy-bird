@@ -27,9 +27,10 @@ const common = merge([
             filename: './assets/js/[name].bundle.js'
         },
         resolve: {
-            extensions: [".tsx", ".ts", ".js"],
+            extensions: [".tsx", ".ts", ".js", ".png"],
             alias: {
-                '@img': './assets/img'
+                '@img': './assets/img',
+                '@images': '../img'
             }
         },
         devtool: 'inline-source-map',
