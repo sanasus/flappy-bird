@@ -11,6 +11,8 @@ const file = require('./webpack/file');
 const devserver = require('./webpack/devserver');
 const uglifyjs = require('./webpack/uglifyjs');
 const minImg = require('./webpack/imgmin');
+const HappyPack = require('happypack');
+var ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 const PATHS = {
     src: path.join(__dirname, 'src'),
@@ -39,6 +41,21 @@ const common = merge([
             new HtmlWebpackPlugin({
                 title: 'index.html',
                 template: path.join(PATHS.src, 'index.pug'),
+            }),
+        new HappyPack({
+                id: 'ts',
+                threads: 2,
+                loaders: [
+                    {
+                        path: 'ts-loader',
+                        query: { happyPackMode: true }
+                    }
+                ]
+            }),
+            new ForkTsCheckerWebpackPlugin({ 
+                checkSyntacticErrors: true,
+                tsconfig: path.resolve(__dirname, './tsconfig.json'),
+                tslint: path.resolve(__dirname, './tslint.json'),
             })
         ]
     },

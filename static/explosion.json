@@ -1,0 +1,164 @@
+{
+    "frames": {
+        "exp-1.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-2.png": {
+            "frame": {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-3.png": {
+            "frame": {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-4.png": {
+            "frame": {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-5.png": {
+            "frame": {
+                "x": 0,
+                "y": 64,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-6.png": {
+            "frame": {
+                "x": 64,
+                "y": 64,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-7.png": {
+            "frame": {
+                "x": 128,
+                "y": 64,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-8.png": {
+            "frame": {
+                "x": 192,
+                "y": 64,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-9.png": {
+            "frame": {
+                "x": 0,
+                "y": 128,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-10.png": {
+            "frame": {
+                "x": 64,
+                "y": 128,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-11.png": {
+            "frame": {
+                "x": 128,
+                "y": 128,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-12.png": {
+            "frame": {
+                "x": 192,
+                "y": 128,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-13.png": {
+            "frame": {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-14.png": {
+            "frame": {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-15.png": {
+            "frame": {
+                "x": 128,
+                "y": 192,
+                "w": 64,
+                "h": 64
+            }
+        },
+        "exp-16.png": {
+            "frame": {
+                "x": 192,
+                "y": 192,
+                "w": 64,
+                "h": 64
+            }
+        }
+    },
+    "animations": {
+        "frame": [
+            "exp-1.png",
+            "exp-2.png",
+            "exp-3.png",
+            "exp-4.png",
+            "exp-5.png",
+            "exp-6.png",
+            "exp-7.png",
+            "exp-8.png",
+            "exp-9.png",
+            "exp-10.png",
+            "exp-11.png",
+            "exp-12.png",
+            "exp-13.png",
+            "exp-14.png",
+            "exp-15.png",
+            "exp-16.png"
+        ]
+    },
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "explosion.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 256,
+            "h": 256
+        },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:ae5b30f711c27c77147f1da53ea466ef:1db53b24a54b5c26f0f6c8290ed8a01f:6a1677158d465170d66e062b762d8e2a$"
+    }
+}

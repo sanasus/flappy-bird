@@ -4,19 +4,9 @@ module.exports = function() {
         module: {
             rules: [
                 {
-                    enforce: 'pre',
                     test: /\.tsx?$/,
-                    loader: 'tslint-loader',
+                    use: 'happypack/loader?id=ts',
                     exclude: /node_modules/,
-                    options: {
-                        failOnHint: true,
-                        configuration: tsconf
-                    }
-                },
-                {
-                    test: /\.tsx?$/,
-                    use: 'ts-loader',
-                    exclude: /node_modules/
                 }
             ],
         },
