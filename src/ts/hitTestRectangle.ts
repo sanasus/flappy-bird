@@ -10,9 +10,9 @@ export function hitTestRectangle(r1: any, r2: any[]) {
         el.halfWidth = el.width / 2;
         el.halfHeight = el.height / 2;
     });
-
-    r1.halfWidth = r1.width / 2;
-    r1.halfHeight = r1.height / 2;
+    //original r1.width / 2
+    r1.halfWidth = r1.width / 3;
+    r1.halfHeight = r1.height / 3;
 
     r2.forEach((el, i) => {
         vx.push(r1.centerX - el.centerX);

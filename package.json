@@ -15,6 +15,7 @@
     "@types/pixi.js": "^4.8.0",
     "matter-js": "^0.14.2",
     "normalize.css": "^8.0.0",
+    "pixi-layers": "^0.1.9",
     "pixi.js": "^4.8.1"
   },
   "devDependencies": {
