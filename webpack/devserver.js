@@ -6,6 +6,7 @@ module.exports = function (PATHS) {
             compress: true,
             port: 8080,
             stats: 'errors-only',
+            host: '0.0.0.0',
             // open: true
         }
     }
